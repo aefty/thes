@@ -1,0 +1,29 @@
+{
+  "name": "thes",
+  "version": "0.0.1",
+  "description": "Command line thesaurus with text to speech",
+  "main": "thes.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "thesaurus",
+    "synonyms",
+    "dictionary"
+  ],
+  "author": "Aryan Eftekhari",
+  "license": "MIT",
+  "preferGlobal": true,
+  "dependencies": {
+    "http-get-shim": "^0.1.1",
+    "optimist": "^0.6.1",
+    "prettyjson": "^1.1.0"
+  },
+  "bin": {
+    "thes": "thes.js"
+  }
+}
