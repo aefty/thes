@@ -1,6 +1,6 @@
 {
   "name": "thes",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Command line thesaurus with text to speech",
   "main": "thes.js",
   "scripts": {
