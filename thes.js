@@ -7,8 +7,6 @@ var exec = require('child_process').exec;
 var API = "http://words.bighugelabs.com/api/2/5588943cffbc557e9ed6ebdd82dd258e/";
 var ARGS = optimist.argv;
 
-console.log(ARGS);
-
 if (ARGS['_'].length > 0) {
 	word = ARGS['_'][0];
 	type = ARGS['_'][1] ? ARGS['_'][1] : 'noun';
